@@ -1,0 +1,36 @@
+.card__container{
+    height: 195px;
+    width: 200px;
+    border-radius: 16px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
+
+.card__text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.card__footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_edit{
+    background-color: black;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

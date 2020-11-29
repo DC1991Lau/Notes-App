@@ -1,0 +1,9 @@
+.main__container{
+    padding: 25px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+

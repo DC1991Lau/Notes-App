@@ -1,0 +1,19 @@
+.search__container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.search__container input{
+    border: none;
+    margin-left: 5px;
+}
+
+.search__container input::placeholder{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    color: #BEC5D7
+}

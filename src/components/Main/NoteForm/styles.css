@@ -1,0 +1,46 @@
+.cardform__container{
+    height: 195px;
+    width: 200px;
+    border-radius: 16px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
+.cardform__footer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.footer_button{
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardform__container input{
+    border: none;
+    margin-left: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+
+}
+
+.cardform__container input::placeholder{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+}

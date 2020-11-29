@@ -1,0 +1,18 @@
+{
+    "notes":[
+        {"id":1,"text": "Nota 1","color": "gray", "hex":"#BEC5DE",  "date":"20 Maio, 2020"},
+        {"id":2,"text": "Nota 2","color": "green", "hex":"#C6D947",  "date":"20 Maio, 2020"},
+        {"id":3,"text": "Nota 3","color": "red", "hex":"#F3542A",  "date":"20 Maio, 2020"},
+        {"id":4,"text": "Nota 4","color": "orange", "hex":"#F5972C",  "date":"20 Maio, 2020"},
+        {"id":5,"text": "Nota 5","color": "purple", "hex":"#7049f0",  "date":"20 Maio, 2020"},
+        {"id":6,"text": "Nota 6","color": "blue", "hex":"#0aa4f6",  "date":"20 Maio, 2020"}
+    ],
+    "categories":[
+        {"id":1, "color": "gray", "hex":"#BEC5DE"},
+        {"id":2, "color": "green","hex":"#C6D947"},
+        {"id":3, "color": "red","hex":"#F3542A"},
+        {"id":4, "color": "orange","hex":"#F5972C"},
+        {"id":5, "color": "purple","hex":"#7049f0"},
+        {"id":6, "color": "blue","hex":"#0aa4f6"}
+    ]
+}
