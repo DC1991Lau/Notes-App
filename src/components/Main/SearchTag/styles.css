@@ -1,0 +1,20 @@
+.tag__container{
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #BEC5DE;
+    color: #31291D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    
+}
+
+.tag__container p{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 5px;
+}

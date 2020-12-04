@@ -11,7 +11,7 @@
 
 
 
-.card__text{
+.card__text p{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -24,6 +24,16 @@
     justify-content: space-between;
 }
 
+.card__footer p{
+    align-self: flex-end;
+}
+
+.footer__buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .footer_edit{
     background-color: black;
     width: 28px;
@@ -32,5 +42,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 3px;
 }
 

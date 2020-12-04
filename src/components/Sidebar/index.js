@@ -1,11 +1,16 @@
-import React from "react";
-import colors from "../../styles/colors";
+import React, { useState } from "react";
 import "./styles.css";
 
 import { IoAddCircle } from "react-icons/io5";
 import { GiPlainCircle } from "react-icons/gi";
+import { useDispatch, useSelector } from "react-redux";
+import { showForm } from "../../actions/form";
 
 export default function Sidebar() {
+  const dispatch = useDispatch();
+  const categories = useSelector((state) => state.categories);
+  const [showCategories, setShowCategories] = useState(false);
+
   return (
     <div className="sidebar__container">
       <h3>Notes App</h3>
@@ -13,11 +18,22 @@ export default function Sidebar() {
         color="#31291D"
         size="36px"
         style={{ marginBottom: "25px" }}
+        onClick={() => setShowCategories((state) => !state)}
       />
-      <GiPlainCircle style={{ marginBottom: "15px" }} color={colors.purple} />
-      <GiPlainCircle style={{ marginBottom: "15px" }} color={colors.red} />
-      <GiPlainCircle style={{ marginBottom: "15px" }} color={colors.green} />
-      <GiPlainCircle style={{ marginBottom: "15px" }} color={colors.orange} />
+      <div className="categories__container">
+        {showCategories &&
+          categories.map((categorie) => (
+            <GiPlainCircle
+              onClick={() => {
+                dispatch(showForm(categorie.color));
+              }}
+              key={categorie.id}
+              className="categories__selectors"
+              style={{ marginBottom: "15px" }}
+              color={categorie.color}
+            />
+          ))}
+      </div>
     </div>
   );
 }

@@ -18,6 +18,53 @@
     margin-bottom: 50px;
 }
 
-.sidebar__colorpick{
+.categories__container{
+
     
+}
+
+.categories__selectors{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+
+
+.categorie__selector{
+
+    margin-bottom: 15px;
+    cursor: pointer;
+    opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.categories-primary-enter{
+    position: absolute;
+    visibility: hidden;
+    transform: translateY(-100%);
+}
+
+.categories-primary-enter-active{
+    transform: translateY(0%);
+    visibility: visible;
+
+    transition: all 500ms ease;
+    
+}
+
+.categories-primary-exit{
+}
+
+.categories-primary-exit-active{
+    transform: translateY(-100%);
+    transition: all 500ms ease;
+
 }

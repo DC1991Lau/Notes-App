@@ -19,3 +19,22 @@
     display: flex;
     flex-direction: row;
   }
+
+  p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  input{
+    border: none;
+    margin-left: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+
+}
